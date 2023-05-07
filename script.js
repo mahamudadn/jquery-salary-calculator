@@ -26,9 +26,9 @@ function handleSubmit(event){
     monthSalary += Math.round(employeeSalary/12)
     $('#salaryCount').text(monthSalary)
 
-    // if(monthSalary > 20000){
-    //     $('#setColor').css('background-color', 'red');
-    // }
+    if(monthSalary > 20000){
+        $('#setColor').css('background-color', 'red');
+    }
 
     //add that first aname to the table body
 
