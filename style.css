@@ -97,4 +97,12 @@ body {
   tbody tr:nth-child(even){
     background: #dcdcdc;
   }
-  
+  p{
+    font-weight: bolder;
+  }
+
+  #setColor{
+    text-align: right;
+    padding-top: 10px;
+    padding-right: 200px;
+  }
