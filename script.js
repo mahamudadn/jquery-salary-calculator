@@ -9,7 +9,7 @@ $('#table-body').on('click', ".delete" ,deleteIt);
 
 }
 
-//let monthSalary = 0;
+ let monthSalary = 0;
 
 function handleSubmit(event){
 
@@ -29,7 +29,8 @@ function handleSubmit(event){
     // if(monthSalary > 20000){
     //     $('#setColor').css('background-color', 'red');
     // }
-    // add that first aname to the table body
+
+    //add that first aname to the table body
 
     $('#table-body').append(`
 
@@ -41,6 +42,7 @@ function handleSubmit(event){
     <td>${employeeTitle}</td>
     <td>${employeeSalary} </td>
     <td> <button class="delete">Delete</button></td>
+    
     </tr> `)
     // to remove the value i added in the place holder.
     $('#first-name').val('')
