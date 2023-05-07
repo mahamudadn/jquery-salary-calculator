@@ -23,8 +23,8 @@ function handleSubmit(event){
     let employeeTitle =$('#title').val();
     let employeeSalary = $('#salary').val();
 
-    // monthSalary += Math.round(employeeSalary/12)
-    // $('#salaryCount').text(monthSalary)
+    monthSalary += Math.round(employeeSalary/12)
+    $('#salaryCount').text(monthSalary)
 
     // if(monthSalary > 20000){
     //     $('#setColor').css('background-color', 'red');
