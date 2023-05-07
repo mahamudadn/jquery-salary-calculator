@@ -52,12 +52,14 @@ body {
   }
   
   /* ADD Calculator */
-  /*  */
+  /* changed the width to 200px */
+  /* gave aborder radius of 20% */
   input {
     padding: .5em;
     width: 200px;
     background: #f4f8f3;
-    border: 1px solid;
+    border: 2px solid green;
+    border-radius: 20%;
   }
   /*Added border radius of 20%  */
   /* set the backgroung green */
