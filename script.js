@@ -28,6 +28,8 @@ function handleSubmit(event){
 
     if(monthSalary > 20000){
         $('#setColor').css('background-color', 'red');
+    } else if (monthSalary < 20000) {
+        $('#setColor').css('color', 'green');
     }
 
     //add that first aname to the table body

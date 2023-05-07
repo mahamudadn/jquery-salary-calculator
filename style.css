@@ -1,9 +1,12 @@
 /* GLOBAL TYPOGRAPHY STYLES */
 body {
-    background-color: #dcdcdc;
+    /* changed the background whitesmoke */
+    background-color: whitesmoke;
     font-family: 'Roboto', sans-serif;
     color: #313131;
     font-size: 1.25em;
+    /* added a pading of 25px on each side of the page */
+  padding: 25px;
   }
   
     
@@ -16,10 +19,14 @@ body {
     display: flex;
     flex-direction: column;
   }
+  /* added the header a opocity of 0.4 */
+  /* set the color red */
   header {
     height: 8em;
     background-color: #7a7a7a;
     text-align: center;
+    opacity: 0.4;
+    color: red;
   }
   main {
     flex: auto;
@@ -35,7 +42,7 @@ body {
   
   /* HEADER/FOOTER */
   header, footer {
-    height: 100%;
+    height: 15%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -44,21 +51,29 @@ body {
     font-size: 2.5em;
   }
   
-  /* ADD AFFIRMATION FORM */
+  /* ADD Calculator */
+  /*  */
   input {
     padding: .5em;
-    width: 150px;
-    background: #FCFCFC;
+    width: 200px;
+    background: #f4f8f3;
     border: 1px solid;
   }
+  /*Added border radius of 20%  */
+  /* set the backgroung green */
+  /* set the font to bold */
   button {
     padding: .5em;
-    width: 75px;
+    width: 100px;
+    border-radius: 20%;
+    background-color: green;
+    font-weight: bold;
+    
   }
   
-  /* AFFIRMATIONS TABLE */
+  /* Salary Calculation Table */
   table {
-    width: 100%;
+    width: 85%;
     text-align: left;
   }
   table, th, td {
